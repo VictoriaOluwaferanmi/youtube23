@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .title {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  
+  .description {
+    font-family: "Raleway";
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+  }
+  
+  .button {
+    width: 200px; // Adjust as needed
+    height: 60px; // Adjust as needed
+    margin-top: 50px;
+    border-radius: 4px;
+    background-color: #077369;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Raleway";
+  }
+  

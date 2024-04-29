@@ -6,7 +6,7 @@
     padding: 100px 0px;
 
     &.dark {
-      background-color: #0d084d;
+      background-color: #6b0c42;
 
       h1 {
         color: white !important;
@@ -28,7 +28,7 @@
       }
 
       button {
-        background-color: #1dbf73;
+        background-color: #19233a;
         border: none;
         color: white;
         padding: 10px 20px;
@@ -88,26 +88,21 @@
         }
       }
     }
-
-    //   &.reverse {
-    //     background-color: #0d084d;
-    //     color: white;
-    //     .container {
-    //       flex-direction: row-reverse;
-    //     }
-    //   }
   }
 
   .explore {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 100px 0px;
 
     .container {
       width: 1400px;
-
+      justify-content: center;
+      align-items: center;
       h1{
         color: #555;
+        text-align: center;
       }
 
       .items {
